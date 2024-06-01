@@ -1,5 +1,7 @@
 # Gamba Degen Flip
 
+![image](https://github.com/BankkRoll/gamba-degen-flip/assets/106103625/662b4124-a557-424f-a4ad-dd8c5acd7982)
+
 ## Quick Setup
 
 To get started with the Gamba Demo, follow these steps:
@@ -68,8 +70,33 @@ To get started with the Gamba Demo, follow these steps:
    baseWager: 0,
    },
    ```
+5. **Edit the Styles**
 
-5. **Run the Application**
+   Easily change the background, header, game ui ect..
+
+   ```
+   :root {
+     --background-color: #1d394b;
+     --header-color: #32546b;
+     --text-color: #ffffff;
+
+     --game-background-color: #1a2c38;
+     --game-foreground-color: #0f212e;
+
+     --gamba-ui-button-main-background: #8851ff;
+     --gamba-ui-button-main-background-hover: #9564ff;
+     --gamba-ui-input-background: #1a2c38;
+     --gamba-ui-input-color: #ffffff;
+     --gamba-ui-input-background-hover: #1a2c38;
+
+     --gamba-ui-border-radius: 10px;
+     --gamba-ui-button-default-background: #1a2c38;
+     --gamba-ui-button-default-background-hover: #1a2c38;
+     --gamba-ui-button-default-color: white;
+   }
+   ```
+
+6. **Run the Application**
 
 Start the development server:
 
