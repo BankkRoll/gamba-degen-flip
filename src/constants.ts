@@ -15,23 +15,23 @@ export const LIVE_EVENT_TOAST = true;
  ******************************************/
 
 export const BASE_SEO_CONFIG = {
-  defaultTitle: "Gamba - NEXTjs Demo",
+  defaultTitle: "Gamba Degen Flip",
   description:
     "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://play-gamba.vercel.app/",
-    title: "Gamba - NEXTjs Demo",
+    url: "https://gamba-degen-flip.vercel.app/",
+    title: "Gamba Degen Flip",
     description:
       "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
     images: [
       {
-        url: "https://play-gamba.vercel.app/seo.png",
-        alt: "Gamba - NEXTjs Demo",
+        url: "https://gamba-degen-flip.vercel.app/seo.png",
+        alt: "Gamba Degen Flip",
       },
     ],
-    site_name: "Gamba - NEXTjs Demo",
+    site_name: "Gamba Degen Flip",
   },
   twitter: {
     cardType: "summary_large_image",
