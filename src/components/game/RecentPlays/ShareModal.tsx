@@ -46,11 +46,6 @@ export function ShareModal({
   const { game, isFlipGame } = extractMetadata(event);
   const imagePath = `/games/flip/logo.png`;
 
-  const gotoGame = () => {
-    router.push(`/play/flip`);
-    onClose();
-  };
-
   const copyImage = async () => {
     if (ref.current) {
       try {
@@ -195,7 +190,6 @@ export function ShareModal({
             }
             text="Verify"
           />
-          <GambaButton onClick={gotoGame} text={`Play Flip`} />
           <GambaButton onClick={copyImage} text="Share" />
         </div>
       </div>
